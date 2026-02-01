@@ -1,12 +1,15 @@
 {
-  "scripts": { "start": "node server.js" },
-  
+  "name": "saree-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.2.0",
-    "chart.js": "^4.4.0"
+    "express": "^4.19.2",
+    "mongoose": "^8.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "cloudinary": "^1.41.0"
   }
 }
-  
-
